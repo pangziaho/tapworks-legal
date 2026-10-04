@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>技术支持 — 卡包工坊（TapWorks）</title>
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<main>
+<header><h1>技术支持</h1></header>
+<p class="meta">卡包工坊（TapWorks） · 更新于 2026 年 10 月 4 日</p>
+<p class="short">有问题请发邮件到 <a href="mailto:softnjer@yeah.net">softnjer@yeah.net</a>，请写上 iPhone 型号、iOS 版本和你在读的卡片或标签。</p>
+<h2>常见问题</h2>
+<h3>能读哪些卡？</h3>
+<p>交通联合卡和很多城市卡（上海公共交通卡、深圳通、武汉通、岭南通/羊城通等）、香港八达通（只有余额）、Suica、PASMO、ICOCA 等日本交通系 IC 卡、乐天 Edy、nanaco、WAON、韩国 T-money、Cashbee；也能读写 NTAG213/215/216 等 NFC 标签。完整列表在“设置 › 支持的卡片”。</p>
+<h3>卡片要贴在哪里？</h3>
+<p>点“贴卡读取”，把卡片平贴在 iPhone 背面靠近摄像头的顶部，保持一两秒不动。摘掉金属或很厚的手机壳，一次只放一张卡。</p>
+<h3>门禁卡、酒店房卡贴上去没反应。</h3>
+<p>大部分门禁卡、房卡用的是 MIFARE Classic 芯片，iPhone 不支持，所以没有反应。苹果不允许 App 模拟卡片，任何 App 都不能把门禁卡复制到 iPhone 里。你仍然可以手动把卡加入卡包，记下卡号和照片。</p>
+<h3>能读银行卡、护照吗？</h3>
+<p>不能。iOS 不允许 App 读取银行卡；为了保护个人信息，卡包工坊也不读取护照。</p>
+<h3>日本的车站为什么显示成代码？</h3>
+<p>车站代码和站名对照的数据库不允许商用。点一条乘车记录给车站起个名字，以后所有卡片里这个代码都会显示这个名字。</p>
+<h3>八达通的余额比实际少 HK$15。</h3>
+<p>八达通卡里存的是“余额 + 可透支额度”，2017 年 10 月起发行的卡额度变了。卡里读不出发行日期，默认按新卡算。打开这张卡，打开“2017 年 10 月以前发行的卡”。</p>
+<h3>交通联合卡的余额和机器上看到的不一样。</h3>
+<p>有的城市把透支额度算进可用金额，卡包工坊会扣掉透支额度。交通联合 + 本地钱包二合一的卡有两个独立的余额，都会显示出来。</p>
+<h3>能读 Apple 钱包里的卡吗？</h3>
+<p>不能。Apple 钱包里的卡是手机模拟的，同一部 iPhone 读不了自己钱包里的卡，可以在“钱包”App 里看余额。</p>
+<h3>写标签买哪种？</h3>
+<p>写网址、Wi-Fi 用 NTAG213（144 字节）就够；名片和多条记录用 NTAG215（504 字节）或 NTAG216（888 字节）。“写标签”里还可以锁定标签、设置写入密码、连续写入多张、存模板。</p>
+<h3>怎么用标签触发快捷指令？</h3>
+<p>打开“快捷指令 › 自动化 › + › NFC”，扫描任意一张标签，再选要运行的操作。自动化只认标签的卡号，不用往标签里写内容。</p>
+<h3>换新手机怎么把卡包带过去？</h3>
+<p>打开“设置 › 自动备份到 iCloud 云盘”，或者“导出备份文件”。在新手机上打开备份文件，或在设置里选“从备份恢复”。</p>
+<footer>
+<nav><a href="../privacy/zh-Hans.html">隐私政策</a> <a href="en.html" lang="en">English</a> <a href="zh-Hant.html" lang="zh-Hant">繁體中文</a> <a href="ja.html" lang="ja">日本語</a></nav>
+<div>pzh · <a href="mailto:softnjer@yeah.net">softnjer@yeah.net</a></div>
+</footer>
+</main>
+</body>
+</html>
